@@ -12,6 +12,9 @@
             <li><a href="index.html">Présentation</a></li>
             <li class="active"><a href="stream.html">Stream NeyCorp</a></li>
         </ul>
+        <p>
+            <img src="img/Logo_NeyCorp.png" alt="Logo de la Neycorp"/>
+        </p>
         </header>
         <section> <!-- Page -->
             <h1>Stream NeyCorp</h1>
@@ -27,8 +30,9 @@
             <script type="text/javascript">
             new Twitch.Embed("twitch-embed", {
                 width: "100%",
-                height: 480,
+                height: "100%",
                 allowfullscreen : true,
+                src: channel,
                 channel: "neycorp",
             });
             </script>

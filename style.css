@@ -1,4 +1,6 @@
 body{
+    /*color: #47F3CD;
+    background-color: #E96C6A;*/
     color: white;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -12,7 +14,6 @@ body{
 }
 header{ 
     padding: 0; margin: 0;
-	text-align: center;
 }
 header ul {
     border-bottom: 2px solid black;
@@ -23,8 +24,13 @@ header ul li{
     display: inline;
     width: 150px;
     height: 20px;
-    text-align: center;
     
+}
+header img{
+    width: 100px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
 }
 header a {
     text-decoration: none;
